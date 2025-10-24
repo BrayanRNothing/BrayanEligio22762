@@ -1,0 +1,71 @@
+/* Estilos Generales */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Fondo gris muy claro */
+    color: #333; /* Texto principal oscuro */
+    margin: 20px;
+}
+
+/* Título Principal */
+h1 {
+    text-align: center;
+    color: #222;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Títulos de Sección */
+h2 {
+    color: #444; /* Un gris un poco más claro que el negro */
+    margin-top: 35px; /* Espacio entre secciones */
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+/* Estilos de la Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Bordes limpios, sin doble línea */
+    margin-top: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Sombra sutil */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Bordes de celda claros */
+    padding: 12px; /* Más espacio dentro de las celdas */
+    text-align: left;
+}
+
+/* Encabezado de la tabla */
+thead th {
+    background-color: #f0f0f0; /* Encabezado gris claro */
+    color: #000;
+    font-weight: bold;
+}
+
+/* "Zebra striping" para las filas de la tabla */
+tbody tr:nth-child(even) {
+    background-color: #fcfcfc; /* Un blanco apenas distinto */
+}
+
+/* Efecto al pasar el mouse sobre las filas */
+tbody tr:hover {
+    background-color: #f1f1f1; /* Resaltado sutil */
+}
+
+/* Párrafos */
+p {
+    margin-bottom: 15px;
+}
+
+/* Imagen */
+img {
+    display: block; /* Necesario para que funcionen los márgenes automáticos */
+    margin: 20px auto; /* Centrar la imagen horizontalmente */
+    max-width: 100%; /* Para que sea responsive y no se desborde */
+    height: auto; /* Mantiene la proporción */
+    border: 1px solid #ddd; /* Borde simple */
+    border-radius: 4px; /* Esquinas redondeadas leves */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para resaltar */
+}
