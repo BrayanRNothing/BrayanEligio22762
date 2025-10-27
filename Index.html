@@ -7,16 +7,23 @@
     <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
-    <h1>Actividad Práctica Git - IDGS907C</h1>
+    <h1>Actividad Práctica Git - IDGS907C - BrayanEligio</h1>
+    
+    <button id="theme-toggle">Cambiar Tema ☀️/🌙</button>
 
-<h2>Turno y Horarios</h2>
-    <p>Grupo: IDGS907C</p>
-    <p>Turno: Vespertino</p>
-    <p>Horario: Lunes a Viernes, de 17:20 a 22:00 hrs.</p>
-
-<h2>Imagen de TSU</h2>
-    <p>Imagen representativa del Título de Técnico Superior Universitario.</p>
-    <img src="Captura de pantalla 2025-10-24 141114.png" alt="Logo TSU UTSC" width="300">
+    <div class="info-container">
+        <div>
+            <h2>Turno y Horarios</h2>
+            <p>Grupo: IDGS907C</p>
+            <p>Turno: Vespertino</p>
+            <p>Horario: Lunes a Viernes, de 17:20 a 22:00 hrs.</p>
+        </div>
+        <div>
+            <h2>Imagen de TSU</h2>
+            <p>Imagen representativa del Título de Técnico Superior Universitario.</p>
+            <img src="Captura de pantalla 2025-10-24 141114.png" alt="Logo TSU UTSC" width="300">
+        </div>
+    </div>
 
     <h2>Materias del Cuatrimestre</h2>
     <table border="1">
@@ -62,6 +69,27 @@
         </tbody>
     </table>
 
-    <script src="javascript.js"></script>
+    <div class="form-container">
+        <h2>Formulario de Contacto</h2>
+        <form id="contact-form" action="#" method="post">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="user_email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="user_message" rows="5" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="submit-btn">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="Scripts.js"></script>
 </body>
 </html>
